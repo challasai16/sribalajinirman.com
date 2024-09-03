@@ -1,0 +1,440 @@
+@media screen and (max-width: 600px) {
+  .header-container .main-header {
+    position: fixed;
+    left: -600px;
+    top: 0;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 200;
+    width: 100%;
+    height: 100vh;
+    align-items: normal;
+    border-radius: 0;
+    pointer-events: all;
+    transition: all 0.5s ease;
+  }
+  .header-container .main-header .nav-bar ul {
+    flex-direction: column;
+    padding: 2rem;
+    padding-top: 3.5rem;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .close-btn {
+    display: flex;
+    position: absolute;
+    top: 5%;
+    right: 12%;
+  }
+
+  .close-btn a i {
+    font-size: 2rem;
+  }
+
+  .header-container .main-header .nav-bar ul li a {
+    color: antiquewhite;
+  }
+
+  .previous-project {
+    justify-content: flex-start;
+  }
+
+  .header-container {
+    justify-content: flex-start;
+    gap: 1rem;
+    padding-right: 1rem;
+  }
+
+  .header-container .logo-1 {
+    width: 60%;
+    padding: 0 0.5rem;
+    border-right: 2px solid rgba(0, 152, 70, 0.09);
+  }
+
+  .header-container .logo-2 {
+    width: 24%;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 1rem auto;
+  }
+  header .mobile-menu {
+    display: flex;
+    width: 50%;
+    z-index: 200 !important;
+  }
+
+  header .mobile-menu a {
+    display: flex;
+    align-items: center;
+
+    font-size: 1rem;
+    z-index: 200;
+  }
+
+  header .mobile-menu a i {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+  }
+
+  header .header-container {
+    width: 50%;
+    margin: 0;
+  }
+
+  .previous-project .previous-drop {
+    background-color: #393b62;
+    width: fit-content;
+  }
+
+  .previous-drop ul {
+    padding-top: 0px !important;
+    padding: 0px !important;
+  }
+
+  .previous-project i {
+    color: aliceblue;
+  }
+
+  .menu-active {
+    left: 0 !important;
+    transition: all 0.7s ease;
+  }
+
+  .slick-arrow {
+    width: 25px !important;
+    height: 25px !important;
+    font-size: 1.4rem !important;
+  }
+
+  .left-slide,
+  .right-slide {
+    top: 41%;
+  }
+
+  .about-container {
+    width: 90%;
+  }
+
+  .about-container .about-content p {
+    line-height: 1.5rem;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+  .about-container .about-content a {
+    padding-top: 1rem;
+  }
+
+  .about-container .about-content a:hover::before {
+    width: 104%;
+  }
+
+  .amenities-container {
+    width: 90%;
+    margin: 2.5rem auto;
+    padding: 1rem 0;
+  }
+
+  .amenities-container .facilities {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .amenities-container .facilities .facility {
+    justify-content: flex-start;
+  }
+
+  .amenities-container .facilities .facility .image {
+    width: 12%;
+  }
+
+  .amenities-container .facilities .facility p {
+    padding-left: 1.5rem;
+    font-size: 0.8rem;
+  }
+
+  .plan-container {
+    width: 90%;
+  }
+
+  .plan-container .plan-selection {
+    padding: 0rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .plan-container .plan-selection .plan-select button, .plan-container .plan-selection .plan-select button span {
+    font-size: 0.8rem;
+    font-family: var(--var-main-fontfamily);
+  }
+
+  .active-plan {
+    height: 150px !important;
+  }
+
+  .plan-container .plan-content {
+    padding-bottom: 0;
+  }
+
+  .specs-container {
+    width: 90%;
+    margin: 3rem auto;
+  }
+
+  .specs-container .specs-title h2, .location-container .container-left h2, .location-container .container-left h2 span, .contact-container .contact-content .content-left h2, .contact-container .contact-content .content-left h2 span, .amenities-container .title h3, .amenities-container .title h3 span, .about-container .about-content h2, .about-container .about-content h2 span {
+    font-size: 1.4rem;
+    font-family: var(--var-main-fontfamily);
+  }
+  .location-container .container-left h2 {
+      text-align: centre;
+  }
+  .specs-container .specs-title p {
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+  }
+  
+  .specs-container .specs-content{
+      flex-direction: column;
+  }
+
+  .specs-container .specs-content .specs-accordians {
+    flex-direction: column;
+  }
+
+  .specs-container
+    .specs-content
+    .specs-accordians
+    .specs-accordian
+    .acc-content
+    p {
+    line-height: 1.5;
+  }
+
+  .contact-container {
+    width: 90%;
+    margin: 1rem auto;
+    padding: 1rem 0;
+  }
+  .contact-container .contact-content {
+    flex-direction: column;
+  }
+
+  .contact-container .contact-content .content-left h2 {
+    text-align: center;
+  }
+
+  .contact-container .contact-content .content-left,
+  .contact-container .contact-content .content-right {
+    width: 100%;
+  }
+
+  .contact-container .contact-content .content-right .form-container {
+    padding: 0 ;
+  }
+
+  .contact-container
+    .contact-content
+    .content-right
+    .form-container
+    form
+    .form-content
+    input {
+    padding: 0.5rem;
+  }
+
+  .footer-container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 2rem 0;
+    overflow: hidden;
+  }
+
+  .footer-container .footer-logo img {
+    width: 25%;
+  }
+
+  .footer-container .footer-logo ul li a i {
+    font-size: 1.3rem;
+  }
+
+  .footer-container .footer-nav .nav {
+    gap: 1.5rem 2rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+
+  .footer-container .footer-nav .nav li {
+    width: calc(50% - 2rem);
+    text-align: start;
+  }
+
+  .footer-container .footer-copyrights p {
+    padding: 0.7rem 0;
+  }
+
+  footer img.left {
+    width: 75%;
+    bottom: 0;
+    left: 4%;
+    display: none;
+  }
+
+  footer img.right {
+    display: none;
+  }
+  
+  .about-container .about-content ul{
+      justify-content: left;
+  }
+  .specs-container
+  .specs-content
+  .specs-accordians
+  .specs-accordian
+  .acc-title
+  h3{
+      font-size: 0.9rem;
+  }
+  
+   h2 ,h3, span {
+      font-family: var(--var-light-fontfamily);
+  }
+  .header-palmMenu {
+      padding: 0.6rem;
+  }
+  .header-palmMenu ul {
+      display: flex;
+     flex-direction: column;
+     gap: 3rem;
+     justify-content: center;
+  }
+  .about-container {
+      flex-direction: column;
+  }
+ .about-container .about-image {
+     width: 100%;
+ }
+ .about-container .about-content {
+     width: 100%;
+ }
+ .about-container .about-content p {
+     text-align: left;
+ }
+ .location-container {
+     flex-direction: column;
+ }
+ .location-container .container-left {
+     max-width: 100%;
+ }
+ .location-container .container-right {
+     max-width: 100%;
+ }
+ .header-container .logo.palmLogo {
+     width: 37%;
+     padding-left: 1.4rem;
+ }
+ .banner-container .slider-image img {
+     height: auto !important;
+ }
+ .header-container .logo {
+     width: 22%;
+ }
+ .header-container .button {
+     width: 58%;
+ }
+ .p-naviconbox {
+     width: 78%;
+     display: flex;
+     gap: 0.6rem;
+     flex-direction: column;
+     padding-right: 2rem;
+     align-items: flex-end;
+ }
+ .p-naviconbox span {
+     width: 40px;
+     display: block;
+     height: 1.5px;
+     background-color: black;
+ }
+ .pnav-logo img {
+     width: 100%;
+ }
+ .pnav-logo {
+     width: 22%;
+ }
+ .p-navcontainer {
+     width: 90%;
+     justify-content: left;
+ }
+ .sbn-nav {
+   display: none;
+ }
+ .p-nav1 {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     /*display: block;*/
+ }
+ .p-nav, .p-nav1 {
+     position: fixed;
+     background-color: #1F214D;
+     padding: 2rem;
+     width: 100%;
+     height: 100vh;
+     color: white;
+     z-index: 1000;
+     left: -100%;
+     transition: all 0.3s ease-in-out;
+     top: 0;
+ }
+ .p-nav1-manu {
+     left: 0 !important;
+ }
+ .p-nav-manu {
+     left: 0 !important;
+ }
+ .p-nav img, .p-nav1 img {
+     width: 10%;  
+     display: block;
+ }
+ .header-palmMenu ul li a, .p-nav1 ul li a {
+     color: white;
+    text-transform: uppercase;
+    padding: 1rem 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    font-family: var(--var-fontFamily);
+ }
+ .p-naviconboxsbn {
+     display: flex;
+     width: 40%;
+     gap: 0.6rem;
+     flex-direction: column;
+     align-items: flex-end;
+ }
+ .p-naviconboxsbn span {
+     width: 40px;
+     height: 2px;
+     background-color: black;
+ }
+ .p-nav1 ul {
+     display: flex;
+     gap: 3rem;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+ .floorplans {
+     width: 100%;
+ }
+ footer .footer-conatiner .footer-content {
+     flex-direction: column;
+ }
+ /*closed */
+}

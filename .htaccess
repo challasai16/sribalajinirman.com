@@ -1,0 +1,24 @@
+RewriteEngine On
+
+# Redirect non-www to www with HTTPS
+RewriteCond %{HTTP_HOST} ^sribalajinirman\.com [NC]
+RewriteRule ^(.*)$ https://www.sribalajinirman.com/$1 [L,R=301]
+
+# Redirect to HTTPS
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^sribalajinirman\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.sribalajinirman\.com$
+RewriteRule ^/?$ "https\:\/\/www\.sribalajinirman\.com\/" [R=301,L]
+
+# Remove PHP file extension
+RewriteCond %{REQUEST_URI} !^/palm-vista/ [NC]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+# Remove HTML file extension
+RewriteCond %{REQUEST_URI} !^/palm-vista/ [NC]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]

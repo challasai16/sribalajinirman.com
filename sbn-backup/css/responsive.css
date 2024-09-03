@@ -1,0 +1,196 @@
+/*mobile version css starts here */
+@media(max-width: 600px) {
+
+ .sbn-iconbox {
+   display: flex;
+   gap: 0.5rem;
+   flex-direction: column;
+ }
+ .sbn-iconbox span {
+     width: 45px;
+     height: 2px;
+     background-color: black;
+     display: block;
+     
+ }
+ 
+ .navbar  ul {
+     flex-direction: column;
+     gap: 2rem;
+ }
+ .header-container .button a {
+     padding: 0.2rem 1rem;
+ }
+ .header-container .logo {
+     width: 18%;
+ }
+  .header-container .logo img {
+     width: 100%;
+  }
+ .header-container .button {
+     width: 50%;
+ }
+ .header-container .button a span {
+     font-size: 0.9rem;
+ }
+ .about-container .about-content {
+     flex-direction: column;
+ }
+ .about-container .about-content .about-left {
+     width: 100%;
+ }
+ .about-container .about-content .about-right {
+     width: 100%;
+ }
+ .about-container .about-content .about-left h3 {
+     padding: 0;
+     line-height: 1.3;
+     font-size: 1.2rem;
+     margin-top: 1.3rem;
+     font-weight: 700;
+ }
+ .about-container h2, .latestProjects-container h2 {
+     font-size: 1.4rem;
+ }
+ .about-container .about-content .about-right .about-btn {
+     width: 100%;
+ }
+ .latestProjects-container .project {
+     flex-direction: column;
+ }
+ .latestProjects-container .project img {
+     width: 100%;
+ }
+ .latestProjects-container .project .content img {
+     width: 30%;
+ }
+ .latestProjects-container .project .content {
+     padding: 2rem 0;
+ }
+ footer .footer-conatiner .footer-content {
+     flex-direction: column;
+ }
+ footer .footer-conatiner .footer-content .quick{
+     width: 100% !important;
+ }
+ footer .footer-conatiner .footer-content .content:nth-child(even) {
+     width: 100%;
+     padding: 0;
+ }
+ footer .site {
+     padding: 3rem 0;
+ }
+ footer .footer-conatiner .footer-content {
+     padding: 1.5rem;
+ }
+ footer .footer-conatiner .footer-content .content:nth-child(odd) {
+     width: 100%;
+ }
+ footer .content ul li a, footer .content ul li {
+     /*flex-direction: column;*/
+     flex-wrap: wrap;
+     align-items: flex-start;
+     font-weight: 600;
+     font-size: 0.9rem;
+ }
+ footer .footer-conatiner .footer-copyrights p {
+     font-size: 0.75rem;
+ }
+ .header-container .navbar {
+     position: fixed;
+     top: -250%;
+     background-color: white;
+     flex-direction: column;
+     width: 100%;
+     padding: 2rem;
+     gap: 2.5rem;
+     left: 0;
+     z-index: 1000;
+     padding-top: 6rem;
+     height: 100vh;
+     transition: all 0.3s ease-in-out;
+ }
+  .navbar-manu {
+      top: 0 !important;
+  }
+  .header-container .navbar img {
+      width: 10%;
+      display: block;
+      cursor: pointer;
+  }
+  .banner-container .slider-image img {
+      height: 70vh;
+  }
+  .banner-container .slider-image .content h2 {
+      font-size: 1.3rem;
+  }
+  .banner-container .slider-image .content a {
+      font-size: 0.9rem;
+  }
+  .slick-dots {
+      bottom: 10% !important;
+  }
+  .form .form-container form {
+      width: 100%;
+  }
+  .form .form-container {
+      width: 80%;
+  }
+  .form {
+      margin-top: -60px;
+  }
+  .banner .banner-text {
+      width: 90%;
+  }
+  .banner .banner-text p {
+      font-size: 1.1rem;
+  }
+  .aboutHighlights .aboutHighlights-container {
+      flex-direction: column;
+  }
+  .aboutHighlights .aboutHighlights-container .highlight-1 {
+      width: 100%;
+  }
+  .aboutHighlights .aboutHighlights-container .highlight-2 {
+      width: 100%;
+      padding-top: 0;
+  }
+  .aboutValues-conatiner .value {
+      width: 90%;
+  }
+  .aboutValues-conatiner .value p {
+     max-width: 100%;
+  }
+  .aboutValues-conatiner .value-2 {
+      flex-direction: column;
+  }
+  .aboutValues-conatiner .value-2 .image {
+      width: 100%;
+  }
+  .aboutValues-conatiner .value-2 .content {
+      width: 100%;
+      padding: 1rem 0;
+  }
+  .aboutValues-conatiner .value-2 .content p {
+      max-width: 100%;
+  }
+  .header .projects {
+      left: 0%;
+  }
+  .contact-mob-list li span {
+      width: 100%;
+      display: flex;
+      margin: 0.2rem;
+  }  
+  footer .content.contact li span:first-child {
+      border: 0;
+  }
+  footer .addresses p {
+      width: 100%;
+  }
+  footer .footer-conatiner .footer-logo img {
+      width: 25%;
+  }
+/*closed*/
+}
+/*mobile version css ends here */
